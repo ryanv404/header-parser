@@ -1,0 +1,24 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "A request header parsing microservice back-end project created with node and express.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "parser",
+    "node",
+    "express"
+  ],
+  "author": "Ryan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
